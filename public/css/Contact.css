@@ -1,0 +1,32 @@
+
+.contact-form {
+    background-color: #fbfbfb;
+    padding: 15px 20px 15px;
+    border: 1px solid #ececec;
+    width: 450px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border:1px solid black;
+}
+.contact-form .form-header {
+    margin-bottom: 40px;
+}
+.contact-form form textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 120px;
+}
+.contact-form form .btn {
+    width: 100%;
+}
+.contact-form .form-header h2 {
+    font-weight: bold;
+    color: #03A9F4;
+}
+
+/*-- CSS for extra small devices--*/
+@media (max-width: 767px){
+.contact-form {
+    width: 90%;
+}
+}
